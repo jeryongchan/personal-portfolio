@@ -1,0 +1,188 @@
+:root {
+    --font-family: 'Noto Sans Mono', monospace;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --desc-fontsize: 17px;
+    --title-fontsize: 19px;
+
+}
+
+.paragraph {
+    text-align: justify;
+    text-align-last: left;
+}
+
+
+.topmargin {
+    margin-top: 1rem;
+}
+
+
+
+.rem {
+    margin-top: 0.5rem
+}
+
+.top {
+    margin-top: 2rem
+}
+
+.bottom {
+    margin-bottom: 1.5rem
+}
+
+.flex {
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 1rem */
+}
+
+ul {
+    width: 58rem;
+    margin-left: 2rem;
+}
+
+li {
+    padding-left: 1rem
+}
+
+span {
+    float: left;
+    line-height: 85%;
+    width: .7em;
+    font-size: 470%;
+    font-family: 'Noto Sans Mono', monospace;
+    ;
+
+}
+
+.experience {
+    width: 17rem;
+    color: #171d19;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-400);
+    font-size: 40px
+}
+
+.experienceWrapper {
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.title {
+    width: 40rem;
+    color: #171d19;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-500);
+    font-size: var(--title-fontsize);
+    text-align: justify;
+}
+
+
+.singleTitle {
+    width: 60rem;
+    color: #171d19;
+    font-size: var(--title-fontsize);
+    font-weight: var(--font-weight-500);
+    font-family: var(--font-family);
+    text-align: justify;
+}
+
+.fontIncrement {
+    font-size: 22px;
+    margin-top: 1.5rem;
+
+}
+
+a {
+    text-decoration:none;
+}
+
+.gameLink {
+
+    width: 60rem;
+    color: #171d19;
+    font-size: 20px;
+    font-weight: var(--font-weight-500);
+    font-family: var(--font-family);
+}
+
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.desc {
+    width: 65rem;
+    color: #171d19;
+    font-family: var(--font-family);
+    font-size: var(--desc-fontsize);
+    text-align: justify;
+}
+
+.desc2 {
+    width: 60rem;
+    color: #171d19;
+    font-family: var(--font-family);
+    font-size: var(--desc-fontsize);
+    text-align: justify;
+}
+
+.date {
+    color: #171d19;
+    font-family: var(--font-family);
+    /* text-align: right; */
+    padding-top: 0.2rem;
+    font-weight: var(--font-weight-500);
+    font-size: var(--desc-fontsize);
+}
+
+.gifDesc {
+    width: 60rem;
+    color: #171d19;
+    font-size: 20px;
+    font-weight: var(--font-weight-500);
+    font-family: var(--font-family);
+    text-align: justify;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+}
+
+img {
+    width: 60rem;
+}
+
+.padding {
+    margin-top: 20rem
+}
+
+.icon {
+    width: 35px;
+    margin-right: 7px
+}
+
+.icon2 {
+    width: 45px;
+    margin-left: 5px
+}
+
+
+.alignMiddle {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.paragraphEmphasize {
+    font-weight: var(--font-weight-500);
+    margin-bottom: 1.5rem;
+}
