@@ -26,14 +26,23 @@ const WidthLimiter = styled('div')`
 
 const PlaceHolder = styled('div')`
     // background-color: #4C5858;
-    background-color: #202124 ;
+    // background-color: #202124 ; og black color 
+    background-color: #dcfcdc;
+
 
 `
+const NavBarOuterWrapper = styled("div")`
+    height: 40px;
+    padding-top: 3rem;
+    padding-bottom: 0.8rem;
+    background-color: #4a5c6c;    
+`
+
 
 function App() {
     return (
         <WidthLimiter className="width-limiter">
-            <PlaceHolder className="placeholder"></PlaceHolder>
+            <PlaceHolder className="placeholder"><NavBarOuterWrapper></NavBarOuterWrapper></PlaceHolder>
             <AppWrapper className="app-wrapper">
                 <Global
                     styles={css`
@@ -60,7 +69,7 @@ function App() {
                     </Routes>
                 </NavBar>
             </AppWrapper >
-            <PlaceHolder className="placeholder"></PlaceHolder>
+            <PlaceHolder className="placeholder"><NavBarOuterWrapper></NavBarOuterWrapper></PlaceHolder>
         </WidthLimiter>
     );
 }

@@ -9,12 +9,26 @@ const ContentWrapper = styled('div')`
     flex-direction: column
 `
 
+const BannerWrapper = styled('div')`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    flex-direction: column
+`
+
 const Projects = () => {
     return (
         <>
-            <ContentWrapper>
-                <div className="singleTitle bottom fontIncrement">Multiplayer Online Playing Card Game with Chat Functionality</div>
+            <BannerWrapper>
+                <img className="cardBanner" src="/assets/cardgame.png" />
+            </BannerWrapper>
+            <div className="gameLinkWrapper">
                 <div className="gameLink bottom alignMiddle"><img className="icon" src={"/assets/cardsIcon.png"} /><a href="https://thecardweaver.netlify.app" target="_blank">thecardweaver</a></div>
+            </div>
+
+            <ContentWrapper>
+            <div className="singleTitle bottom fontIncrement">Multiplayer Online Playing Card Game /w Chat Function</div>
                 <div className="desc2">
                     A project to showcase own's capability in building and deploying a fullstack web application, as well as the proficiency in the following libraries, including but not limited to:
                     <div className="title top">Frontend Libraries</div>

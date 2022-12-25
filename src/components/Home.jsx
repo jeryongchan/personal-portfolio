@@ -3,8 +3,8 @@ import TypeWriter from "./TypeWriter";
 import Portrait from "./Portrait";
 import Spinner from "./spinner";
 import { useState } from "react";
-import { useEffect } from "react";
 import WigglingText from "./wigglingText";
+import './initialLetter.css';
 
 const OuterWrapper = styled('div')`
     display: flex;
@@ -78,6 +78,14 @@ const Home = () => {
                 }
                 <Portrait setLoaded={setLoaded} setPortraitHovered={setPortraitHovered} setShowWigglingText={setShowWigglingText} />
                 {(showWigglingText && !portraitHovered) && <WigglingText />}
+                {(showWigglingText && portraitHovered) &&
+                    <div className="portraitWrapper">
+                        <a href="https://github.com/jeryongchan/personal-portfolio/blob/master/src/components/Portrait.jsx" className="portraitInfo" target="_blank">
+                            Made with Fabric.js
+                            <img className="icon6" src={"/assets/arrowLink.png"} />
+                        </a>
+                        
+                    </div>}
             </PortraitWrapper>
         </OuterWrapper >
     );

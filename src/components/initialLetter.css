@@ -58,6 +58,16 @@ span {
 
 }
 
+.contact {
+    width: 60rem;
+    color: #171d19;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-400);
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
 .experience {
     width: 17rem;
     color: #171d19;
@@ -71,6 +81,22 @@ span {
     display: flex;
     align-items: center;
     justify-content: left;
+}
+
+.contactWrapper {
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 0.5rem;
+}
+
+.connectWrapper {
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* margin-bottom: 0.5rem; */
 }
 
 .title {
@@ -93,13 +119,14 @@ span {
 }
 
 .fontIncrement {
-    font-size: 22px;
+    font-size: 26px;
     margin-top: 1.5rem;
 
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
+    color: black;
 }
 
 .gameLink {
@@ -131,6 +158,16 @@ li:not(:last-child) {
     font-size: var(--desc-fontsize);
     text-align: justify;
 }
+
+.desc3 {
+    /* width: 25rem; */
+    color: #171d19;
+    font-family: var(--font-family);
+    font-size: var(--desc-fontsize);
+    text-align: justify;
+    margin-left: 1rem;
+}
+
 
 .date {
     color: #171d19;
@@ -170,11 +207,36 @@ img {
     margin-left: 5px
 }
 
+.icon3 {
+    width: 45px;
+    margin-left: 5px;
+    margin-right: 12px
+}
+
+.icon4 {
+    margin-top: 12px;
+    width: 25px;
+    margin-left: 5px
+}
+
+.icon5 {
+    /* margin-left: 10px; */
+    margin-right: 25px;
+    margin-bottom: 5px;
+    width: 70px;
+}
+
+.icon6 {
+    margin-top: 5px;
+    width: 18px;
+    margin-left: 0px
+}
 
 .alignMiddle {
-    margin-left: 1rem;
+    margin-left: 5.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -185,4 +247,25 @@ p {
 .paragraphEmphasize {
     font-weight: var(--font-weight-500);
     margin-bottom: 1.5rem;
+}
+
+
+
+.cardBanner {
+    /* height: 50%; */
+    width: 30%;
+}
+
+.portraitInfo {
+    margin-top: 0.15rem;
+    font-size: 14px;
+    font-weight: var(--font-weight-500);
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+}
+
+.portraitWrapper {
+    display: flex;
+    justify-content: right;
 }

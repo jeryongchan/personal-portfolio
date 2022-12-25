@@ -23,7 +23,7 @@ const NavBarOuterWrapper = styled("div")`
     padding-top: 3rem;
     padding-bottom: 0.8rem;
     padding-left: 2rem;
-    padding-right: 4rem;
+    padding-right: 2.1rem;
     background-color: #4a5c6c;    
 `
 
@@ -50,7 +50,7 @@ export default function NavBar({ children }) {
                     <StyledLink to="/">.self</StyledLink>
                     <StyledLink to="Projects">.projects</StyledLink>
                     <StyledLink to="Experiences">.experiences</StyledLink>
-                    <StyledLink to="Contact">.contact</StyledLink>
+                    <StyledLink to="Contact">.contacts</StyledLink>
                 </NavBarInnerWrapper>
             </NavBarOuterWrapper>
             <br />
